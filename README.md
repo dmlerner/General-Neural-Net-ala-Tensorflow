@@ -9,7 +9,7 @@
   
   One specifies a neural net archiecture in driver.cpp using the various operation structs from neural.cpp. All operation classes are or inherit from Node, which has scalar value. Structs named r1, r2, and r3 are rank 1, 2, and 3 tensors for storing weights. Specific operations inherit from those structs and add the ability to compute functions of any number and rank of inputs. 
   
-  See also simpleDriver.cpp and simple.out for a simple architecture example.
+  See also simpleDriver.cpp and simple.out for a simple architecture example. It implements a one operation, linear neural net, but is surprisingly effective! 
   
 
 
